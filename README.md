@@ -26,6 +26,7 @@ Start by forking or cloning this repo.  <br />
             <li>&nbsp;&nbsp;&nbsp;Description</li>
             <li>&nbsp;&nbsp;&nbsp;List of genres it falls into</li>
             </ul></div>
+          <div className="text-lg">There are some basic assets in `src/assets/` but feel free to swap them out if you want</div>
           <div className="text-lg">Make any assumptions you need to complete the project and be able to explain why you've made that assumption</div>
           <div className="text-lg">Feel free to go above and beyond but don't spend more than 4 hours on the project</div>
         </div>
