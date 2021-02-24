@@ -1,7 +1,7 @@
 # bz-hiring
 brandzooka-hiring
 
-
+When finished please email bmccall@brandzooka.com.
 
 ### API Documentation
 https://www.themoviedb.org/documentation/api
