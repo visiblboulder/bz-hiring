@@ -1,7 +1,7 @@
 # bz-hiring
 brandzooka-hiring
 
-When finished please email bmccall@brandzooka.com.
+When finished please create a pull request and email bmccall@brandzooka.com.
 
 ### API Documentation
 https://www.themoviedb.org/documentation/api
@@ -11,7 +11,7 @@ https://developers.themoviedb.org.
 
           
 #### Your objective is to recreate this UI using Tailwind and React
-Start by forking or cloning this repo.  <br />
+Start by forking this repo.  <br />
 <b>We will provide you with an API key for themoviedb.org</b>
           <div className="text-lg">By default when the page loads show cards for the top 6 most popular ENGLISH LANGUAGE movies.</div>
           <div className="text-lg">Give your users the ability to filter the top 6 list by rating but try and maintain 6 movies in the list</div>
