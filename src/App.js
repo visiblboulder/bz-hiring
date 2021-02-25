@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { Provider } from 'react-redux';
+import { NotificationContainer } from 'react-notifications';
+import SearchMovies from './pages/SearchMovie';
+import store from './redux/store';
+import 'react-notifications/lib/notifications.css';
+import "tailwindcss/tailwind.css";
+import "react-placeholder/lib/reactPlaceholder.css";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Provider store={store}>
+        <SearchMovies />
+      </Provider>
+      <NotificationContainer />
     </div>
   );
 }
