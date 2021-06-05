@@ -1,0 +1,27 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/assets/css/App.css":
+false,
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/react-scripts/node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\emijo\\Desktop\\bz-hiring\\src\\App.js: Unexpected token (20:7)\n\n  18 |     <hr />\n  19 |     <div>\n> 20 |       <!-- <i class=\"fa-solid fa-star\"></i> -->\n     |        ^\n  21 |       <FontAwesomeIcon icon={faStar} class=\"text-yellow-300 text-xs\" />{ movie.star_rating }\n  22 |       { movie.release_date }\n  23 |     </div>\n    at _temp._raise (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at _temp.raiseWithData (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at _temp.raise (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at _temp.unexpected (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:9183:16)\n    at _temp.jsxParseIdentifier (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:4568:12)\n    at _temp.jsxParseNamespacedName (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:4578:23)\n    at _temp.jsxParseElementName (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:4589:21)\n    at _temp.jsxParseOpeningElementAt (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:4676:22)\n    at _temp.jsxParseElementAt (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:4709:33)\n    at _temp.jsxParseElementAt (C:\\Users\\emijo\\Desktop\\bz-hiring\\node_modules\\@babel\\parser\\lib\\index.js:4725:32)");
+
+/***/ }),
+
+/***/ "./src/assets/css/App.css":
+false,
+
+/***/ "./src/data/movies.json":
+false,
+
+/***/ "./src/logo.svg":
+false
+
+})
+//# sourceMappingURL=main.0ad448d5e9ee82ab4bf7.hot-update.js.map
