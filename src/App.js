@@ -5,7 +5,7 @@ import Search from './Search';
 import MovieCards from './MovieCards';
 
 
-const filterMovies = (movies, query) => {
+function filterMovies (movies, query) {
   if (!query) {
     return movies;
   }
@@ -15,7 +15,7 @@ const filterMovies = (movies, query) => {
     }
     return null;
   });
-};
+}
 
 function App() {
   const { search } = window.location;

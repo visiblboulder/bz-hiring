@@ -1,4 +1,4 @@
-const SearchBar = ({ searchQuery, setSearchQuery }) => {
+function SearchBar({ searchQuery, setSearchQuery }) {
   return (
     <div className="items-center flex flex-row justify-center">
       <div>
@@ -17,6 +17,6 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
       </div>
     </div>
   );
-};
+}
 
 export default SearchBar;

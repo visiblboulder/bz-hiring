@@ -1,5 +1,4 @@
-const MovieCards = (movies) => {
-
+function MovieCards(movies) {
   return (
     movies.map((movie) => (
       <div key={`${movie.id}_card`} className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col justify-between">
@@ -27,6 +26,6 @@ const MovieCards = (movies) => {
       </div>
     ))
   );
-};
+}
 
 export default MovieCards;
