@@ -1,3 +1,13 @@
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  body {
+    @apply bg-gray-200;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
