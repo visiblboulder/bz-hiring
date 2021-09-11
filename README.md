@@ -1,7 +1,7 @@
 # bz-hiring
 brandzooka-hiring
 
-When finished please create a pull request and email bmccall@brandzooka.com.
+When finished please create a pull request and email jgarner@brandzooka.com.
 
 ### API Documentation
 https://www.themoviedb.org/documentation/api
